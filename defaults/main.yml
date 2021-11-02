@@ -41,7 +41,7 @@ jitsi_audioLevelsInterval: 250
 # warning, will consume a lot of bandwith:
 jitsi_disableSimulcast: False
 
-# should reduce load and fixed flickering text in screen sharing:
+# should reduce load and fixed flickering text in screen sharing (default is false):
 jitsi_disable_video_background: True
 
 jitsi_enableLayerSuspension: True
@@ -55,7 +55,7 @@ jitsi_backToP2PDelay: 5
 jitsi_desktopSharingFrameRate_min: 5
 jitsi_desktopSharingFrameRate_max: 30
 
-# enable p2p mode when only 2 participants are present (recommend):
+# enable p2p mode when only 2 participants are present (recommended):
 jitsi_enable_p2p_mode: True
 # h264 for 1:1 and p2p-modes:
 jitsi_disableH264_1on1: True
