@@ -76,3 +76,4 @@ Author Information
 ------------------
 
 Tim Jonathan Heske <tjheske@inwx.de>
+Stefan Schwarz <support@stefanux.net>
