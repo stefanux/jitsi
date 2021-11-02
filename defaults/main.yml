@@ -49,8 +49,8 @@ jitsi_channelLastN: 4
 jitsi_requireDisplayName: True
 jitsi_defaultLanguage: 'en'
 
-# 1080p, 720p, 480p
-jitsi_resolution_profile: '480p'
+# default, 1080p, 720p, 480p
+jitsi_resolution_profile: 'default'
 jitsi_backToP2PDelay: 5
 jitsi_desktopSharingFrameRate_min: 5
 jitsi_desktopSharingFrameRate_max: 30
@@ -74,6 +74,12 @@ jitsi_statistics_enabled: True
 
 jitsi_stun_mapping_harvester_addresses: "meet-jit-si-turnrelay.jitsi.net:443"
 
+# If third party requests are disabled, no other server will be contacted
+# This means avatars will be locally generated and callstats integration will not function
+jitsi_disableThirdPartyRequests: True
+
+# True will hide the "Show More" link in the GSM popover that can be used to display more statistics about the connection (IP, Port, protocol, etc)
+jitsi_disableShowMoreStats: False
 
 # analytics
 #jitsi_google_analytics_tracking_id: 'your-tracking-id-UA-123456-1'
